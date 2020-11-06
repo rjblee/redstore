@@ -310,6 +310,7 @@ ul {
 .menu-icon {
   width: 28px;
   margin-left: 20px;
+  display: none;
 }
 
 /* ------ Media Query for Menu ------ */
@@ -321,6 +322,8 @@ ul {
     left: 0;
     background-color: #333;
     width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
   }
 
   nav ul li {
@@ -332,5 +335,10 @@ ul {
 
   nav ul li a {
     color: #fff;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
   }
 }
