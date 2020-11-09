@@ -313,7 +313,7 @@ ul {
   display: none;
 }
 
-/* ------ Media Query for Menu ------ */
+/* ------ Media Query for Menu (<800px) ------ */
 
 @media only screen and (max-width: 800px) {
   nav ul {
@@ -340,5 +340,19 @@ ul {
   .menu-icon {
     display: block;
     cursor: pointer;
+  }
+}
+
+/* ------ Media Query for Menu (<600px) ------ */
+
+@media only screen and (max-width: 600px) {
+  .row {
+    text-align: center;
+  }
+
+  .col-2,
+  .col-3,
+  .col-4 {
+    flex-basis: 100%;
   }
 }
