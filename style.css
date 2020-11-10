@@ -343,6 +343,18 @@ ul {
   }
 }
 
+/* ------ All Products Page ------ */
+
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
+select {
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+
 /* ------ Media Query for Menu (<600px) ------ */
 
 @media only screen and (max-width: 600px) {
