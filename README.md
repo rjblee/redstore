@@ -4,8 +4,8 @@
 RedStore is a frontend sports retail e-commerce website built with HTML5, CSS3, and JavaScript.
 
 ## Tech Stack
-- HTML 5
-- CSS 3
+- HTML5
+- CSS3
 - JavaScript
 
 ## Screenshots
